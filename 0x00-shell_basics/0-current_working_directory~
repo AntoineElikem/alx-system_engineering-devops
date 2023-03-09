@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Get absolute path of pwd into cwd
+cwd=$(pwd -P)
+
+# Print the result
+echo "$cwd"
